@@ -7,10 +7,10 @@ const artists = [
   { name: "Red Horizon", genre: "Indie", stage: "Main Stage" },
 ]
 
-export default function Lineup() {
+export default function Artistas() {
   return (
-    <section id="lineup" className="py-20 px-4">
-      <h2 className="text-4xl font-bold text-center mb-12">Lineup 202</h2>
+    <section id="Artistas" className="py-20 px-4">
+      <h2 className="text-4xl font-bold text-center mb-12">Artistas</h2>
       <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 max-w-6xl mx-auto">
         {artists.map((artist, i) => (
           <div key={i} className="bg-red-950 rounded-2xl p-6 hover:scale-105 transition">

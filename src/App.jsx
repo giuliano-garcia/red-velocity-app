@@ -125,7 +125,7 @@
 
 import Navbar from './components/Navbar'
 import Hero from './components/Hero'
-import Lineup from './components/Lineup'
+import Artistas from './components/Artistas'
 import Tickets from './components/Tickets'
 import Footer from './components/Footer'
 
@@ -134,7 +134,7 @@ function App() {
     <div className="bg-neutral-900 min-h-screen">
       <Navbar />
       <Hero />
-      <Lineup />
+      <Artistas />
       <Tickets />
       <Footer />
     </div>
